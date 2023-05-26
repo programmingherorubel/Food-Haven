@@ -1,0 +1,15 @@
+.subscribe{
+    background:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.767)),url(../img//backgournd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.subscribeCOntent{
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}

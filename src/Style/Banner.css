@@ -1,0 +1,14 @@
+.banner{
+    
+    background:url(../img//slide_6ef28deb-dd5f-4a18-8059-18a739cbc9a0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sliderContainer{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

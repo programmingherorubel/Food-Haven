@@ -1,0 +1,88 @@
+.customnavbar{
+    background-color: #2B3934;
+}
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.desktopMenu{
+    display: flex;
+    gap: 20px;
+}
+.desktopMenu li{
+    font-weight: 600;
+}
+.mobilemenu{
+    padding: 10px 0px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    transition:all 0.4s;
+    transform: translateX(-100%);
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.hamburger{
+    display: none;
+}
+.mobilemenu.active{
+    transition:all 0.4s;
+    transform: translateX(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .disktopNavbar{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .disktopNavbar{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra extra  large devices (larges desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}
